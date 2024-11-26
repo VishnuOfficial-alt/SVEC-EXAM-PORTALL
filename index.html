@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Download Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .pdf-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .pdf-link {
+            background-color: #009688;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .pdf-link:hover {
+            background-color: #00796b;
+            transform: translateY(-5px);
+        }
+
+        .pdf-link:active {
+            transform: translateY(0);
+        }
+
+        @media (min-width: 600px) {
+            .pdf-link {
+                width: 45%;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            .pdf-link {
+                width: 30%;
+            }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>SVEC 4 1 LEAKED QUESTION PAPERS </h1>
+
+        <div class="pdf-links">
+            <a href="./3D VISUALIZATION TECHNIQUES.pdf" class="pdf-link" download>3D VISUALIZATION TECHNIQUES</a>
+            <a href="./AWSN_Final Question Papers.pdf" class="pdf-link" download>AWSN_Final Question Papers</a>
+            <a href="./DATABASE_AND_WEB_SECURITY.pdf" class="pdf-link" download>DATABASE_AND_WEB_SECURITY</a>
+            <a href="./DSMM_Final Question Papers.pdf" class="pdf-link" download>DSMM_Final Question Papers</a>
+            <a href="./IIOT_final Question Papers.pdf" class="pdf-link" download>IIOT_final Question Papers</a>
+            <a href="./IoT AP.pdf" class="pdf-link" download>IoT AP</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PDF Downloader | All rights reserved</p>
+    </footer>
+
+    <script>
+        // Responsive functionality using JavaScript
+        window.addEventListener("resize", function() {
+            const links = document.querySelectorAll('.pdf-link');
+            if (window.innerWidth < 600) {
+                links.forEach(link => link.style.fontSize = '16px');
+            } else {
+                links.forEach(link => link.style.fontSize = '18px');
+            }
+        });
+    </script>
+
+</body>
+</html>
